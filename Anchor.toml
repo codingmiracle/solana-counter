@@ -1,0 +1,16 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_counter = "4DP7UpgsNPudn2f3yDZXGcf7yDPtcLvPYdvievPjck7W"
+[programs.devnet]
+solana_counter = "4DP7UpgsNPudn2f3yDZXGcf7yDPtcLvPYdvievPjck7W"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/dagra/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
